@@ -1,0 +1,159 @@
+/* CSS Document */
+/*設定 body 網站整體CSS*/
+body {
+    font-family:"Noto Sans TC", sans-serif;  /* google雲端字體 思源黑體*/
+    margin: 0;         /* 沒有邊距*/
+    font-size: 15px;   /* 字體級數設為15px*/
+    font-weight: 300;  /* 字體粗細設為300，可自由調整粗細*/
+    line-height: 2em;  /* 字體行間設為2em(字高)*/
+}
+/* 網站標題 */
+h1 {
+    font-size: 1em;
+    color: #76becc;
+    text-align: center;
+}
+/* 標題 */
+h2 {
+    font-size: 24px;
+    color: #76becc;
+    text-align: center;
+}
+h3 {
+    border-left: solid 6px #76becc;  /* 標題三左側有寬6px的色塊 */
+    padding-left: 6px;               /* 標題三左側設定6px的間距 */
+}
+/* 超連結設定 */
+a{
+    color: #76becc;
+    text-decoration: none;
+}
+a:hover{
+    color:#76becc;
+    text-decoration: none;
+}
+/* 圖片無邊框*/
+img{
+   border: 0;
+}
+/* article */
+article {
+    padding: 32px 16px;
+}
+/* 簡介調整了背景色與文字顏色 */
+#profile {
+    background-color:#3E2F19;
+    color: #ffffff;
+}
+#profile h2 {
+    color:#DDD7CE;
+}
+/* 設定了內容寬度的上限 */
+.inner {
+    max-width: 900px;
+    margin: 0 auto;  /* 左右置中 */
+}
+#advanced,#html,#rwd{
+    max-width: 900px;
+    margin: 0 auto; /*  左右置中 */ 
+}
+/* #CSS調整了背景色 */
+#css{
+    background: #F7F1EB;
+}
+/* section */
+section {
+    margin: 48px 0px;/* 區塊外部距離：上下48px  左右0px*/
+}
+/* 列表頁section */
+.webimg {
+    margin: 24px 0;
+    overflow: hidden;
+}
+.webimg img {
+    float: left;
+    margin-right: 16px;
+    max-width: 100%;
+    height: auto;
+}
+.webimg h4 {
+    margin: 0 0 0.5em;
+}
+.webimg p {
+    margin: 0;
+}
+/* 表格 */
+table {
+    border-collapse: collapse; /* 邊框合併為單一邊框，讓表格變得更美化*/
+    width: 100%;               /* 表格寬度設為100%，會隨著螢幕寬度縮放*/
+}
+th,td {
+    border: solid 1px #999999; /* 邊框底邊，設定為實線、1px、#999999深灰色細邊炳框*/
+    padding: 16px;             /* 內距設為16px*/
+}
+th {
+    font-weight: 400;          /* 表格標題字體粗細設為400*/
+    background-color:#DDD7CE;  /* 表格標題背景色設為#DDD7CE*/
+}
+/* 導覽列 */
+.navigation ul {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+.navigation ul li a {
+    color: #66CDAA;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color:#62d5e8;
+    text-decoration:none;
+}
+/* 主要視覺設計 */
+.mainvisual {
+    background-color:#9E6A27;
+}
+.mainvisual img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+/* 照片靠右對齊的section設定 */
+.imageunit {
+    margin: 0;
+    overflow: hidden;  /* 自動隱藏超出的文字或圖片。*/
+}
+.imageunit img {
+    float: left;  /* 靠左浮動*/
+    margin-right: 20px;
+}
+.imageunit p {
+    margin: 0 0 1em;  /* 外距 上  左右  下*/
+}
+/* 回到本頁開頭 */
+.pagetop {
+    text-align: right;
+    margin: 1em;
+}
+/* 著作權資訊 */
+.copyright {
+    border-top: solid 5px #66CDAA;
+    text-align: center;
+	padding-top: 20px;
+}
+/* 超連結設定 */
+a{
+	color: #42C5EA;
+	text-decoration: none;
+}
+a:hover{
+	color: #66CDAA;
+	text-decoration: none;
+}
